@@ -6,7 +6,7 @@ up:
 	$(COMPOSE) up -d --build
 
 down:
-	$(COMPOSE) down -v
+	$(COMPOSE) down
 
 logs:
 	$(COMPOSE) logs -f --tail=200
